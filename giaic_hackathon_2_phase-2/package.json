@@ -1,0 +1,15 @@
+{
+  "name": "fullstack-app",
+  "version": "1.0.0",
+  "description": "Full stack web application with Next.js and FastAPI",
+  "scripts": {
+    "dev": "bash .specify/scripts/bash/start-dev-env.sh",
+    "setup": "bash .specify/scripts/bash/init-project.sh",
+    "init-frontend": "bash .specify/scripts/bash/init-frontend.sh",
+    "init-backend": "bash .specify/scripts/bash/init-backend.sh",
+    "init-db": "bash .specify/scripts/bash/init-database.sh"
+  },
+  "keywords": ["nextjs", "fastapi", "fullstack", "typescript", "python"],
+  "author": "Your Name",
+  "license": "MIT"
+}

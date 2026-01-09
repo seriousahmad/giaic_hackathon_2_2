@@ -1,0 +1,21 @@
+{
+  "name": "autodev-agent",
+  "version": "1.0.0",
+  "description": "Auto-Dev Agent for Full-Stack Project Automation",
+  "tools": [
+    {
+      "name": "auto_execute_skill",
+      "description": "Automatically execute the appropriate development skill based on context",
+      "input_schema": {
+        "type": "object",
+        "properties": {
+          "context": {
+            "type": "string",
+            "description": "The user request context that determines which skill to execute"
+          }
+        },
+        "required": ["context"]
+      }
+    }
+  ]
+}
